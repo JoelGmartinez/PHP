@@ -8,7 +8,7 @@
 header{
     width: 100%;
     height: 70px;
-    background-color: burlywood;
+    background-color: #deb887;
     color: white;
 }
 
@@ -32,6 +32,39 @@ section img{
     background-size: cover;
     height: 600px;
     width: 100%;
-
+    
     
 }
+
+
+form{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(206, 206, 206);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+input{
+    outline: none;
+    background-color: rgb(206, 206, 206);
+    border: none;
+    border-bottom: solid 1px #deb887;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.input{
+    background-color: #deb887;
+}
+textarea{
+    width: 400px;
+    height: 100px;
+}
+
+
